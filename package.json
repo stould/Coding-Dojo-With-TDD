@@ -1,0 +1,20 @@
+{
+  "name": "coding-dojo-ce-229",
+  "version": "1.0.0",
+  "description": "Coding Dojo for CE-229 class",
+  "main": "core/index.js",
+  "scripts": {
+    "execute": "node ./core/main.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Vinicius Zibetti Resko",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
