@@ -1,6 +1,6 @@
 //------ lib.js ------
 
-const parseInput = function(inputString) {
+export const parseInput = function(inputString) {
     if(!inputString) {
         throw new Error('Input string cannot be empty.');
     }
@@ -34,16 +34,14 @@ const parseInput = function(inputString) {
     return parsedInput;
 };
 
-const sum = function(num1, num2) {
+export const sum = function(num1, num2) {
     return num1 + num2;
 };
 
-const subtract = function(num1, num2) {
+export const subtract = function(num1, num2) {
     return num1 - num2;
 };
 
-module.exports = {
-    parseInput,
-    sum,
-    subtract,
+export const evaluate = function(values, operators) {
+    
 };

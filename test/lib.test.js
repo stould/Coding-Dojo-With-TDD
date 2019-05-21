@@ -1,5 +1,5 @@
-var expect    = require('chai').expect;
-var lib = require('../core/lib');
+import { expect } from 'chai';
+import * as lib from '../core/lib';
 
 describe('Testing lib functions', function() {
 
