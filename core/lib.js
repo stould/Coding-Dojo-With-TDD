@@ -42,6 +42,7 @@ export const subtract = function(num1, num2) {
     return num1 - num2;
 };
 
+//values.length === operators.length - 1
 export const evaluate = function(values, operators) {
-    
+
 };
